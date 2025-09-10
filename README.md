@@ -1,5 +1,5 @@
 # Effect of Macronutrients Starvation on Gene Expression in ***Komagataella phaffii*** Cells
-<img align=right src="https://github.com/user-attachments/assets/0e29d8da-3fbd-4b6e-9d8e-94e8fc46a68e" alt="# prediction tool" width="100"/>
+<img align=right src="https://github.com/user-attachments/assets/0e29d8da-3fbd-4b6e-9d8e-94e8fc46a68e" alt="# prediction tool" width="300"/>
 
 This is a repository of studies on the response to macronutrient deficiency through altered gene expression in Komagataella phaffii cells.
 
