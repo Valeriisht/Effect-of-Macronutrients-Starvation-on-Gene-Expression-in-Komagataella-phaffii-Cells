@@ -9,7 +9,7 @@ import numpy as np
 
 
 st.set_page_config(
-    page_title="**Komagataella Phaffii** Phosphate and Biotin Genes Database",
+    page_title="**Komagataella Phaffii** Phosphate and Biotin Response",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -63,6 +63,8 @@ st.markdown('<h3>Interactive database of genes activated by phosphate and biotin
 
 cur_dir = os.getcwd()
 file_path = os.path.join(cur_dir, "data", "Data.xlsx")
+
+st.markdown('<h3>Data are presented for genes that significantly changed expression under macronutrient (phosphate and biotin) deficiency conditions. Biotin data are presented only for cells grown on methanol as a carbon source.</h3>', unsafe_allow_html=True)
 
 
 @st.cache_data
