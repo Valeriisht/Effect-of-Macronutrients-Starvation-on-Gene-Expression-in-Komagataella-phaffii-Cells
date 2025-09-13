@@ -58,13 +58,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.markdown('<h1 class="main-header">Komagataella Phaffii Database</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">**Komagataella Phaffii** Phosphate and Biotin Response</h1>', unsafe_allow_html=True)
 st.markdown('<h3>Interactive database of genes activated by phosphate and biotin deficiency</h3>', unsafe_allow_html=True)
 
 cur_dir = os.getcwd()
 file_path = os.path.join(cur_dir, "data", "Data.xlsx")
 
-st.markdown('<h3>Data are presented for genes that significantly changed expression under macronutrient (phosphate and biotin) deficiency conditions. Biotin data are presented only for cells grown on methanol as a carbon source.</h3>', unsafe_allow_html=True)
+st.markdown('<h4>Data are presented for genes that significantly changed expression under macronutrient (phosphate and biotin) deficiency conditions. Biotin data are presented only for cells grown on methanol as a carbon source.</h4>', unsafe_allow_html=True)
 
 
 @st.cache_data
