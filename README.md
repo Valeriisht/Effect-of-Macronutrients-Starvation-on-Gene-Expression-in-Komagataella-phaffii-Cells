@@ -52,12 +52,13 @@ This database integrates RNA-seq data, orthology information, and statistical an
 ### Launch 
 
 **1. Install all dependencies:**
-```bash
+
+```
 conda env create -f environmental.yaml
 conda activate your_env_name
 ```
 
 **2.Launch in command line:**
 
-  ```streamlit run phosphate_dashboard.py```
+```streamlit run phosphate_dashboard.py```
 
