@@ -9,7 +9,7 @@ import numpy as np
 
 
 st.set_page_config(
-    page_title="**Komagataella Phaffii** Phosphate Genes Database",
+    page_title="**Komagataella Phaffii** Phosphate and Biotin Genes Database",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded"
