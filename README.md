@@ -45,7 +45,7 @@ The following tools are used in this project:
 
 ## Results
 
-Script of Interective DataBase about gene expression is located in '''https://github.com/Valeriisht/Effect-of-Macronutrients-Starvation-on-Gene-Expression-in-Komagataella-phaffii-Cells/blob/main/dashboard.py'''
+Script of Interective DataBase about gene expression is located in [dashboard.py](https://github.com/Valeriisht/Effect-of-Macronutrients-Starvation-on-Gene-Expression-in-Komagataella-phaffii-Cells/blob/main/dashboard.py)
 
 This database integrates RNA-seq data, orthology information, and statistical analysis for comprehensive gene function exploration.
 
