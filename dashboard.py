@@ -58,7 +58,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.markdown('<h1 class="main-header">**Komagataella Phaffii** Phosphate and Biotin Response</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">Komagataella Phaffii Phosphate and Biotin Response</h1>', unsafe_allow_html=True)
 st.markdown('<h3>Interactive database of genes activated by phosphate and biotin deficiency</h3>', unsafe_allow_html=True)
 
 cur_dir = os.getcwd()
@@ -155,6 +155,19 @@ with tab2:
         </ul>
         </div>
         """, unsafe_allow_html=True)
+    
+    st.markdown("""
+    ### **P-value**  
+    **Statistical significance of expression change**  
+    - **P < 0.05** → Significant change  
+    - **P < 0.001** → Highly significant  
+    - **P < 1e-10** → Extremely significant (multiple testing corrected)  
+
+    ### **BaseMean**  
+    **Average expression level across all samples**  
+    - **High values** → Constitutively expressed gene  
+    - **Low values** → Lowly expressed or condition-specific gene  
+    """)
         
     col3, col4 = st.columns(2)
     with col3:
