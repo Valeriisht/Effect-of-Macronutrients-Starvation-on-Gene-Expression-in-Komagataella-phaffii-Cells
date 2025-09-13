@@ -62,3 +62,9 @@ conda activate your_env_name
 
 ```streamlit run phosphate_dashboard.py```
 
+### App
+
+- Or ypu can use web-site: [APP](https://ul3vaejjwr8ghq9vb9cmpr.streamlit.app)
+
+
+
