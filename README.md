@@ -14,7 +14,7 @@ This is a repository of studies on the response to macronutrient deficiency thro
 
 ## Dataset
 
-The data is contained in the folder - '''[data/Data.xsxl](https://github.com/Valeriisht/Effect-of-Macronutrients-Starvation-on-Gene-Expression-in-Komagataella-phaffii-Cells/blob/main/data/Data.xlsx)
+The data is contained in the folder - [data/Data.xsxl](https://github.com/Valeriisht/Effect-of-Macronutrients-Starvation-on-Gene-Expression-in-Komagataella-phaffii-Cells/blob/main/data/Data.xlsx)
 
 ## Methods
 
@@ -48,4 +48,15 @@ The following tools are used in this project:
 Script of Interective DataBase about gene expression is located in '''https://github.com/Valeriisht/Effect-of-Macronutrients-Starvation-on-Gene-Expression-in-Komagataella-phaffii-Cells/blob/main/dashboard.py'''
 
 This database integrates RNA-seq data, orthology information, and statistical analysis for comprehensive gene function exploration.
+
+### Launch 
+
+**1. Install all dependencies:**
+```bash
+conda env create -f environmental.yaml
+conda activate your_env_name```
+
+**2.Launch in command line:**
+
+  ```streamlit run phosphate_dashboard.py```
 
