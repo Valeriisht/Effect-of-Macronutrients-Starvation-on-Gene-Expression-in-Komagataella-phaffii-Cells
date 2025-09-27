@@ -25,7 +25,7 @@ st.markdown("""
     }
     .sub-header {
         font-size: 1.5rem;
-        color: #4682B4;
+        color: #1E90FF;
         border-bottom: 2px solid #1E90FF;
         padding-bottom: 0.5rem;
         margin-top: 1.5rem;
@@ -148,7 +148,7 @@ with tab2:
     with st.container():
         st.markdown("""
         <div style='background-color: #F0F8FF; padding: 15px; border-radius: 10px; border-left: 5px solid #8dd973; margin-bottom: 20px;'>
-        <h4 style='color: #8dd973; margin-top: 0;'>Experimental Conditions</h4>
+        <h4 style='color: #1E90FF; margin-top: 0;'>Experimental Conditions</h4>
         <ul style='margin-bottom: 0;'>
         <li><strong>Phosphate:</strong> 1 g/L vs. 30 mg/L</li>
         <li><strong>Biotin:</strong> 400 µg/L vs. Biotin-free medium</li>
