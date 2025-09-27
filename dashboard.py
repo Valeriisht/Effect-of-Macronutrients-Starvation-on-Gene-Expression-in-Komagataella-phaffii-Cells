@@ -65,6 +65,7 @@ cur_dir = os.getcwd()
 file_path = os.path.join(cur_dir, "data", "Data.xlsx")
 
 st.markdown('<h4>Data are presented for genes that significantly changed expression under phosphate and biotin deficiency conditions. Biotin data are presented only for cells grown on methanol as a carbon source.</h4>', unsafe_allow_html=True)
+st.markdown('<h4>Data are presented for genes that significantly changed expression under phosphate and biotin deficiency conditions. Biotin data are presented only for cells grown on methanol as a carbon source.</h4>', unsafe_allow_html=True)
 
 
 @st.cache_data
@@ -147,6 +148,8 @@ with tab2:
 
     with st.container():
         st.markdown("""
+        <div style='background-color: #F0F8FF; padding: 15px; border-radius: 10px; border-left: 5px solid #8dd973; margin-bottom: 20px;'>
+        <h4 style='color: #8dd973; margin-top: 0;'>Experimental Conditions</h4>
         <div style='background-color: #F0F8FF; padding: 15px; border-radius: 10px; border-left: 5px solid #8dd973; margin-bottom: 20px;'>
         <h4 style='color: #1E90FF; margin-top: 0;'>Experimental Conditions</h4>
         <ul style='margin-bottom: 0;'>
